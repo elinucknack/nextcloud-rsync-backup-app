@@ -1,0 +1,92 @@
+#app-content-rsync .settings-data {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 300px;
+}
+
+#app-content-rsync .settings-data .rsync-checkbox,
+#app-content-rsync .settings-data .rsync-text,
+#app-content-rsync .settings-data .rsync-password,
+#app-content-rsync .settings-data .rsync-select {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+}
+
+#app-content-rsync .settings-data .rsync-text span {
+    cursor: pointer;
+    display: block;
+}
+
+#app-content-rsync .settings-data .rsync-text input,
+#app-content-rsync .settings-data .rsync-password input,
+#app-content-rsync .settings-data .rsync-text textarea,
+#app-content-rsync .settings-data .rsync-select select {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+#app-content-rsync .settings-data .rsync-text textarea {
+    resize: none;
+}
+
+#app-content-rsync .settings-data .rsync-text input,
+#app-content-rsync .settings-data .rsync-password input,
+#app-content-rsync .settings-data .rsync-text textarea,
+#app-content-rsync .settings-data .rsync-select select {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+#app-content-rsync .settings-data .rsync-checkbox {
+    flex-direction: row;
+}
+
+#app-content-rsync .settings-data .rsync-checkbox span {
+    cursor: pointer;
+    display: block;
+    margin: 3px 0 3px 10px;
+}
+
+#app-content-rsync .settings-data .rsync-checkbox input[type="checkbox"] {
+    cursor: pointer;
+    height: 24px;
+    min-height: 24px;
+}
+
+#app-content-rsync .settings-data .rsync-text-array {
+    cursor: pointer;
+    display: inline;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+#app-content-rsync .settings-data .rsync-text-array input {
+    cursor: pointer;
+    display: inline;
+    width: calc(100% - 35px);
+}
+
+#app-content-rsync .settings-data .rsync-text-array button.add {
+    display: inline;
+    height: 30px;
+    margin: 2px 0 0 0;
+    min-height: 30px;
+    width: 30px;
+}
+
+#app-content-rsync .settings-data .rsync-text-array button.remove {
+    display: inline;
+    height: 30px;
+    margin: 0 0 0 2px;
+    min-height: 30px;
+    width: 30px;
+}
+
+#app-content-rsync .icon-delete:hover {
+    background-image: var(--icon-delete-dark);
+}

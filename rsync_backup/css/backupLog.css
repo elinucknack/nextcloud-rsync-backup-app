@@ -1,0 +1,83 @@
+#app-content-rsync .backup-log {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 600px;
+}
+
+#app-content-rsync .backup-log h3 {
+    box-sizing: border-box;
+    color: var(--color-text-light);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+    padding: 0;
+    text-align: left;
+}
+
+#app-content-rsync .rsync-notification-div {
+    color: #ff0000;
+    padding: 5px 10px 15px 10px;
+}
+
+#app-content-rsync .rsync-attr-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#app-content-rsync .rsync-attr-table th,
+#app-content-rsync .rsync-attr-table td {
+    border: 1px solid var(--color-background-darker);
+    padding: 5px 10px;
+}
+
+#app-content-rsync .rsync-attr-table th {
+    font-weight: bold;
+}
+
+#app-content-rsync .rsync-attr-table tr.no-data:hover,
+#app-content-rsync .rsync-attr-table tr.no-data:focus,
+#app-content-rsync .rsync-attr-table tr.no-data:active {
+    background-color: inherit;
+}
+
+#app-content-rsync .rsync-message-log span {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    white-space: break-spaces;
+}
+
+#app-content-rsync .rsync-message-log .no-data {
+    font-style: italic;
+}
+
+#app-content-rsync .success {
+    color: #00ff00;
+}
+
+#app-content-rsync .warning {
+    background-color: transparent;
+    color: #ff8000;
+}
+
+#app-content-rsync .error {
+    color: #ff0000;
+}
+
+#app-content-rsync h2 {
+    display: flex;
+}
+
+#app-content-rsync h2 .button {
+    display: flex;
+    height: 30px;
+    margin: 0 0 0 15px;
+    min-height: 30px;
+    width: 30px;
+}
+
+#app-content-rsync h2 .button.close {
+    padding: 6px;
+}

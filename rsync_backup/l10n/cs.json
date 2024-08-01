@@ -1,0 +1,23 @@
+{ "translations": {
+    "Backup": "Zálohování",
+    "Invalid type of Backup disabled, boolean expected.": "Neplatný typ atributu 'Zálohování vypnuto', očekáván boolean.",
+    "Invalid type of Database dump directory, string expected.": "Neplatný typ atributu 'Složka pro export databáze', očekáván řetězec.",
+    "Invalid type of Database backup directory, string expected.": "Neplatný typ atributu 'Složka pro zálohu databáze', očekáván řetězec.",
+    "Invalid type of Database backup SSH authentication, array expected.": "Neplatný typ atributu 'SSH autentizace pro zálohu databáze', očekáváno pole.",
+    "Invalid content of Database backup SSH authentication, max one item expected.": "Neplatný obsah atributu 'SSH autentizace pro zálohu databáze', očekávána jedna položka.",
+    "Unknown content of Database backup SSH authentication, Password or Key file expected.": "Neznámý obsah atributu 'SSH autentizace pro zálohu databáze', očekáváno Heslo nebo Soubor s klíčem.",
+    "Invalid type of Database backup SSH authentication data, string expected.": "Neplatný typ dat atributu 'SSH autentizace pro zálohu databáze', očekáván řetězec.",
+    "Invalid type of Application backup directory, string expected.": "Neplatný typ atributu 'Složka pro zálohu aplikace', očekáván řetězec.",
+    "Invalid type of Application backup SSH authentication, array expected.": "Neplatný typ atributu 'SSH autentizace pro zálohu aplikace', očekáváno pole.",
+    "Invalid content of Application backup SSH authentication, max one item expected.": "Neplatný obsah atributu 'SSH autentizace pro zálohu aplikace', očekávána jedna položka.",
+    "Unknown content of Application backup SSH authentication, Password or Key file expected.": "Neznámý obsah atributu 'SSH autentizace pro zálohu aplikace', očekáváno Heslo nebo Soubor s klíčem.",
+    "Invalid type of Application backup SSH authentication data, string expected.": "Neplatný typ dat atributu 'SSH autentizace pro zálohu aplikace', očekáván řetězec.",
+    "Invalid type of Data backup directory, string expected.": "Neplatný typ atributu 'Složka pro zálohu dat', očekáván řetězec.",
+    "Invalid type of Data backup SSH authentication, array expected.": "Neplatný typ atributu 'SSH autentizace pro zálohu dat', očekáváno pole.",
+    "Invalid content of Data backup SSH authentication, max one item expected.": "Neplatný obsah atributu 'SSH autentizace pro zálohu dat', očekávána jedna položka.",
+    "Unknown content of Data backup SSH authentication, Password or Key file expected.": "Neznámý obsah atributu 'SSH autentizace pro zálohu dat', očekáváno Heslo nebo Soubor s klíčem.",
+    "Invalid type of Data backup SSH authentication data, string expected.": "Neplatný typ dat atributu 'SSH autentizace pro zálohu dat', očekáván řetězec.",
+    "Invalid type of Notification recipients, array of e-mails expected.": "Neplatný typ atributu 'Příjemci notifikací', pole e-mailů očekáváno.",
+    "Backup settings saved.": "Nastavení zálohování uloženo.",
+    "Backup log not found.": "Záznam zálohování nenalezen."
+}}

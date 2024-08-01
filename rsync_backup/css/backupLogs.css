@@ -1,0 +1,84 @@
+#app-content-rsync .rsync_backup-data {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 600px;
+}
+
+#app-content-rsync .rsync_backup-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#app-content-rsync .rsync_backup-table th,
+#app-content-rsync .rsync_backup-table td {
+    border: 1px solid var(--color-background-darker);
+    padding: 5px 10px;
+}
+
+#app-content-rsync .rsync_backup-table th {
+    background-color: var(--color-background-dark);
+    font-weight: bold;
+}
+
+#app-content-rsync .rsync_backup-table td {
+    cursor: pointer;
+}
+
+#app-content-rsync .rsync_backup-table tr.no-data:hover,
+#app-content-rsync .rsync_backup-table tr.no-data:focus,
+#app-content-rsync .rsync_backup-table tr.no-data:active {
+    background-color: inherit;
+}
+
+#app-content-rsync .rsync_backup-table tr.no-data td {
+    font-style: italic;
+    cursor: default;
+    text-align: center;
+}
+
+#app-content-rsync .rsync_backup-notifications {
+    padding: 5px 10px;
+}
+
+#app-content-rsync .rsync_backup-error-notification {
+    color: #ff0000;
+    padding: 0px 0px 10px 0px;
+}
+
+#app-content-rsync .success {
+    color: #00ff00;
+}
+
+#app-content-rsync .warning {
+    background-color: transparent;
+    color: #ff8000;
+}
+
+#app-content-rsync .error {
+    color: #ff0000;
+}
+
+#app-content-rsync h2 {
+    display: flex;
+}
+
+#app-content-rsync h2 .button {
+    display: flex;
+    height: 30px;
+    margin: 0 0 0 15px;
+    min-height: 30px;
+    width: 30px;
+}
+
+#app-content-rsync h2 .button.prev {
+    padding: 6px;
+}
+
+#app-content-rsync h2 .button.page {
+    padding: 6px;
+}
+
+#app-content-rsync h2 .button.next {
+    padding: 6px;
+}

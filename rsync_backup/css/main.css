@@ -1,0 +1,162 @@
+#app-navigation-rsync {
+    backdrop-filter: blur(25px);
+    background-color: var(--color-main-background-blur, var(--color-main-background));
+    flex-shrink: 0;
+    height: 100%;
+    left: 0;
+    padding: 0px;
+    position: relative;
+    top: 0;
+    transition: width 200ms ease-in-out;
+    width: 300px;
+    z-index: 2000;
+}
+
+@media all and (max-width: 1024px) {
+    #app-navigation-rsync {
+        position: absolute;
+    }
+}
+
+#app-navigation-rsync.close {
+    width: 0;
+}
+
+#app-navigation-rsync .app-navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--default-grid-baseline, 4px);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: calc(var(--default-grid-baseline, 4px) * 2);
+    position: relative;
+    width: 100%;
+}
+
+#app-navigation-rsync .app-navigation-entry {
+    border-radius: var(--border-radius-pill);
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    min-height: 44px;
+    position: relative;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+}
+
+#app-navigation-rsync .app-navigation-entry.active,
+#app-navigation-rsync .app-navigation-entry:has(a):focus-within,
+#app-navigation-rsync .app-navigation-entry:has(a):hover {
+    background-color: var(--color-background-hover);
+}
+
+#app-navigation-rsync .app-navigation-entry-link {
+    box-sizing: border-box;
+    color: var(--color-main-text);
+    display: flex;
+    flex: 1 1 0;
+    line-height: 44px;
+    min-height: 44px;
+    overflow: hidden;
+    padding: 0 14px 0 0;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+#app-navigation-rsync a.app-navigation-entry-link {
+    cursor: pointer;
+}
+
+#app-navigation-rsync .app-navigation-entry-icon {
+    align-items: center;
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: flex;
+    flex: 0 0 44px;
+    height: 44px;
+    justify-content: center;
+    width: 44px;
+}
+
+#app-navigation-rsync .icon-history {
+    background-image: var(--icon-history-dark);
+}
+
+#app-navigation-rsync .icon-settings {
+    background-image: var(--icon-settings-dark);
+}
+
+#app-navigation-rsync .app-navigation-entry-title {
+    color: var(--color-main-text);
+    line-height: 44px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#app-navigation-rsync .app-navigation-toggle {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    color: var(--color-main-text);
+    flex: 0 0 44px;
+    height: 44px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: calc(-44px - var(--default-grid-baseline, 4px) * 2);
+    top: calc(var(--default-grid-baseline, 4px) * 2);
+    transition: background-color 100ms ease-in-out;
+    width: 44px;
+}
+
+#app-navigation-rsync #app-navigation-toggle-open {
+    display: none;
+}
+
+#app-navigation-rsync #app-navigation-toggle-close {
+    display: flex;
+}
+
+#app-navigation-rsync.close #app-navigation-toggle-open {
+    display: flex;
+}
+
+#app-navigation-rsync.close #app-navigation-toggle-close {
+    display: none;
+}
+
+#app-navigation-rsync .app-navigation-toggle:active,
+#app-navigation-rsync .app-navigation-toggle:hover {
+    background-color: var(--color-background-hover) !important;
+}
+
+#app-content-rsync {
+    background-color: var(--color-main-background);
+    flex-basis: 100vw;
+    overflow-y: auto;
+    padding: 14px 64px;
+    z-index: 1000;
+}
+
+#app-content-rsync h2 {
+    color: var(--color-text-light);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: left;
+}
+
+#app-content-rsync h2.icon-loading-small {
+    margin-left: 30px;
+}
+
+#app-content-rsync h2.icon-loading-small:after {
+    left: -22px;
+}

@@ -1,0 +1,23 @@
+{ "translations": {
+    "Backup": "Backup",
+    "Invalid type of Backup disabled, boolean expected.": "Invalid type of 'Backup disabled', boolean expected.",
+    "Invalid type of Database dump directory, string expected.": "Invalid type of 'Database dump directory', string expected.",
+    "Invalid type of Database backup directory, string expected.": "Invalid type of 'Database backup directory', string expected.",
+    "Invalid type of Database backup SSH authentication, array expected.": "Invalid type of Database backup SSH authentication, array expected.",
+    "Invalid content of Database backup SSH authentication, max one item expected.": "Invalid content of Database backup SSH authentication, max one item expected.",
+    "Unknown content of Database backup SSH authentication, Password or Key file expected.": "Unknown content of Database backup SSH authentication, Password or Key file expected.",
+    "Invalid type of Database backup SSH authentication data, string expected.": "Invalid type of Database backup SSH authentication data, string expected.",
+    "Invalid type of Application backup directory, string expected.": "Invalid type of 'Application backup directory', string expected.",
+    "Invalid type of Application backup SSH authentication, array expected.": "Invalid type of Application backup SSH authentication, array expected.",
+    "Invalid content of Application backup SSH authentication, max one item expected.": "Invalid content of Application backup SSH authentication, max one item expected.",
+    "Unknown content of Application backup SSH authentication, Password or Key file expected.": "Unknown content of Application backup SSH authentication, Password or Key file expected.",
+    "Invalid type of Application backup SSH authentication data, string expected.": "Invalid type of Application backup SSH authentication data, string expected.",
+    "Invalid type of Data backup directory, string expected.": "Invalid type of 'Data backup directory', string expected.",
+    "Invalid type of Data SSH authentication, array expected.": "Invalid type of Data backup SSH authentication, array expected.",
+    "Invalid content of Data SSH authentication, max one item expected.": "Invalid content of Data backup SSH authentication, max one item expected.",
+    "Unknown content of Data SSH authentication, Password or Key file expected.": "Unknown content of Data backup SSH authentication, Password or Key file expected.",
+    "Invalid type of Data SSH authentication data, string expected.": "Invalid type of Data backup SSH authentication data, string expected.",
+    "Invalid type of Notification recipients, array of e-mails expected.": "Invalid type of 'Notification recipients', array of e-mails expected.",
+    "Backup settings saved.": "Backup settings saved.",
+    "Backup log not found.": "Backup log not found."
+}}
