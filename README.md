@@ -31,7 +31,7 @@ The following steps describe the installation of Rsync Backup in Nextcloud.
    - `rsync_backup_notification_recipients`: The list of backup log email recipients.
 3. Go to the application administration and click to install Rsync Backup.
 
-## How to user
+## How to use
 
 1. Scheduled job: Runs every day when the `rsync_backup_disabled` is set to `false`.
 2. OCC command `rsync-backup:backup`: The following params are available:
