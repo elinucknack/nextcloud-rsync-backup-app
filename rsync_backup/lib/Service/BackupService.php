@@ -476,15 +476,13 @@ class BackupService {
     
     public function sendBackupLog(BackupLogger $backupLogger, array $backupNotificationRecipients): void {
         $message = $this->mailer->createMessage();
-        $subject = 'Backup notification';
         if ($backupLogger->hasErrors()) {
-            $subject = '[ERROR] ' . $subject;
+			$message->setSubject('Backup notification failed');
         } else if ($backupLogger->hasWarnings()) {
-            $subject = '[WARNING] ' . $subject;
+			$message->setSubject('Backup notification succeeded with warnings');
         } else {
-            $subject = '[SUCCESS] ' . $subject;
+			$message->setSubject('Backup notification succeeded');
         }
-        $message->setSubject($subject);
         $message->setPlainBody($backupLogger->getFullLogAsPlain());
         $message->setHtmlBody($backupLogger->getFullLogAsHtml());
         $message->setTo($backupNotificationRecipients);

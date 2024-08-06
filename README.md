@@ -4,6 +4,8 @@ This is the documentation of Rsync Backup, a Nextcloud application for Nextcloud
 
 This application enables to backup Nextcloud (DB, application folder, data folder) using rsync to local or remote machine. The backups are incremental (the newswet backup is full, the rest contains only the changed files). The backup can run as an Nextcloud job (every day once), or you can launch it manually using the command `rsync-backup:backup`.
 
+The application is localized for English and Czech.
+
 The following steps describe the installation of Rsync Backup in Nextcloud.
 
 ## Prerequisite

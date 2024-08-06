@@ -4,7 +4,7 @@
     <name>Rsync Backup</name>
     <summary>Application for Nextcloud backuping using rsync.</summary>
     <description><![CDATA[Rsync Backup contains command and job for Nextcloud backuping.]]></description>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <licence>agpl</licence>
     <author mail="eli.nucknack@gmail.com" homepage="https://github.com/elinucknack">Eli Nucknack</author>
     <namespace>RsyncBackup</namespace>
